@@ -1,0 +1,131 @@
+*{
+	background-color:#857F74;
+	margin: 0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: none;
+}
+.contenedor{
+	width: 80%;
+	margin: auto;
+}
+
+header{
+	background: #857F74;
+	padding: 15px 0;
+	position: fixed;
+	width: 100%;
+}
+
+header h1{
+	color: #fff;
+	text-align: center;
+}
+
+header nav .menu li a{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+
+}
+
+header nav .menu li a:hover {
+	color: green;
+}
+
+header nav .menu li{
+	display: inline-block;
+	margin: 0 5px 0 5px;
+}
+/*.menu{
+	position: relative;
+}*/
+
+
+header nav .menu li .submenu{
+	display: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	position: absolute;
+}
+
+header nav .menu li:hover .submenu{
+	display: block;
+}
+
+
+
+/*img{
+	overflow: visible;
+	display: inline-block;
+}*/
+
+.historia{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size:100px;
+}
+
+/*p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size:15px;
+	padding-top: 5px;
+  	padding-bottom: 5px;
+  }
+*/  
+.disco{
+	width: 200px;
+	overflow: visible;
+	display: inline-block;
+}
+
+footer nav ul {
+	text-align: right;
+}
+
+footer nav ul li {
+	display: inline-block;
+	width: 50px;
+}
+
+.msj{
+	width: 200px;
+}
+
+.columna {
+    float: left;
+    width: 32%;
+    padding: 7px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banda{
+	padding: 2%;
+    width: 75%;
+ }
+
+
+.nombre {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #363434;
+}
+
+
+
+.datos {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+   	color: #363434;
+}
