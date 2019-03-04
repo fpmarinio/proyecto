@@ -2,40 +2,264 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Menu desplegable</title>
-	<link rel="stylesheet" type="text/css" href="css/estilosof.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Divididos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilosof.css">	
+	<link href="https://fonts.googleapis.com/css?family=Hind:400,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	
 </head>
+
+<!-- INICIO MENU -->
 <body>
 <header>
-	<div class="contenedor">
-	<h1>
+	<div class="contenedor_2">
+		
+	<h1 class="logo"><a href="#">Divididos</a></h1>
 		<nav>
 			<ul class="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="integrantes.html">Integrantes</a>
+				
+				<li><a href="#head">Home</a></li>
+				<li><a href="#historia">Historia</a></li>
+				<li><a href="#integrantes">Integrantes</a>
 					<ul class="submenu">
-						<li><a href=""></a>Ricardo Mollo</li>
-						<li><a href=""></a>Diego Arnedo</li>
-						<li><a href=""></a>Catriel Ciavarella</li>
+						<li><a href="#ing" class="ing">Ricardo Mollo</a></li>
+						<li><a href="#ing" class="ing">Diego Arnedo</a></li>
+						<li><a href="#ing" class="ing">Catriel Ciavarella</a></li>
 					</ul>
 				</li>	
-				<li><a href="historia.html">Historia</a></li>
-				<li><a href="discografia.html">Discografia</a></li>
-				<li><a href="proximos.html">Proximos shows</a></li>
-				<li><a href="contactenos.html">Contactenos</a></li>
+				<li><a href="#discografia">Discografia</a></li>
+				<li><a href="#proximos">Proximos shows</a></li>
+				<li><a href="#tienda">Salir a comprar</a></li>
 			</ul>
 		</nav>
-	</h1>
 	</div>	
+
+	<section class="contenedor">
+		<div href="head" id="head" >
+			<ul>
+				<li>
+					<img src="img/collage.jpg">
+				</li>	
+			</ul>	
+		</div>
+	</section>	
+
 	
 </header>
-<iframe src="https://open.spotify.com/embed/user/florpilarm/playlist/6f6Iz5kp8VSzA7HSGauzuh" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<!-- FIN MENU -->
+
+<!-- INICIO HISTORIA -->
+
+<section>
+	<article>
+		<div class="contenedorh" id="historia">
+			<p class="titulo">Historia</p>>
+			<p class="texto">En 1987 fallece Luca Prodan, lider de la banda "Sumo". En ese momento Ricardo Mollo y Diego Arnedo eran integrantes de la banda, Divididos fue, junto a Las Pelotas, una de las bandas herederas que comenzó a funcionar. Los nombres de dichas bandas nacen de una frase dicha por Prodan durante una entrevista, la frase decia "¿Sumo divididos? ¡Las pelotas!". El debut  de Divididos se produjo en junio de 1988 en un pub de Flores, casi sin repercusión.</p>
+
+			<p class="texto">El público de Divididos era, en su mayoría, el que arrastraba Sumo. Los pasajes más emocionantes de aquellos primeros shows eran cuando Divididos rememoraba las viejas canciones como “Divididos por la felicidad", "Mañana en el abasto" o "Mejor no hablar de ciertas cosas", casi incorporados a su repertorio habitual.</p>
+		</div>
+	</article>
+</section>		
+
+
+<!-- FIN HISTORIA -->
+
+<!-- EMPIEZA INTEGRANTES -->
+
+<section class="integrantes" id="integrantes">
+	<h2 class="tituloi">Integrantes</h2>
+		<div class="columna">
+			<img src="img/mollo.jpg" class="banda" id="ing">
+			<p class="nombre">Ricardo Mollo</p>
+			<p class="datos">Nacido el 17 de agosto de 1957, en Pergamino, provincia de Buenos Aires. Es conocido por haber sido guitarrista de la exitosa banda Sumo y por ser, actualmente, el guitarrista, vocalista y lider de Divididos </p>
+		</div>
+		<div class="columna">
+			<img src="img/arnedo.jpg" class="banda" id="ing">
+			<p class="nombre">Diego Arnedo</p>
+			<p class="datos">Nacido en Hurlingam, Buenos Aires, el 6 de enero de 1954. Es el bajista de la banda, previamente toco con Mollo en Sumo por el 1980.</p>
+		</div>
+		<div class="columna" >
+			<img src="img/catriel.jpg" class="banda" id="ing">
+			<p class="nombre">Catriel Ciavarella</p>
+			<p class="datos">Nacido el 1 de septiembre de 1979. Con tal solo 14 años Mollo y Arnedo quisieron sumarlo a la banda, pero se unió difinitivamente al grupo en 2004.</p>
+		</div>
+</section>
+
+<!-- FIN INTEGRANTES -->
+
+
+<!-- INICIO DISCOGRAFIA -->
+
+	<section class="name">
+		<h2 class="discografia" id="discografia">Discografía</h2>			
+		<div class="columna">
+			<a href="https://open.spotify.com/album/0ZNRl9pxbglsYLKRdSEmz0?si=JRCRD1uVTj2T5C0o6NF58g" target="_blank">
+				<h2>40 dibujos ahi en el piso</h2>
+				<img src="img/40d.png" class="disco"/>
+			</a>
+		</div>
+		<div class="columna">	
+			<a href="https://open.spotify.com/album/5UmrOPpQ3VmXmBRSvXMbcR?si=Z74BCaxJQn2br18RfiAgUw"  target="_blank">
+				<h2>Acariciando lo aspero</h2>
+				<img src="img/acariciando.png" class="disco"/>
+			</a>
+		</div>
+		<div class="columna">
+			<a href="https://open.spotify.com/album/4D1aIzUYKG6jytRjgT0QIx?si=_D6XVtwXTQ-3Xd-KZnRckA"  target="_blank">
+				<h2>La era de la boludez</h2>
+				<img src="img/laera.png" class="disco"/>
+			</a>
+		</div>
+		<div class="columna">
+			<a href="https://open.spotify.com/album/78CgEIHzH8TtgNmV63lMbF?si=WV1HF46zRG-f2IUVelxHpA"  target="_blank">
+				<h2>Otroletravaladna</h2>
+				<img src="img/otro.png" class="disco" />
+			</a>
+		</div>		
+		<div class="columna">
+			<a href="https://open.spotify.com/album/5qNbbDBwCJn5haKSWxsBJS?si=qL_T8ZjjQru65TJ_8tT69g"  target="_blank">
+				<h2>Gol de mujer</h2>
+				<img src="img/gol.png" class="disco" />
+			</a>
+		</div>
+		<div class="columna">	
+			<a href="https://open.spotify.com/album/4GkZExYLfegidZaO1BgpvU?si=gg5X67rORGSvuC3GmeVORA" target="_blank">
+				<h2>Narigon del siglo</h2>
+				<img src="img/narigon.png" class="disco" />
+			</a>
+		</div>
+		<div class="columna">
+			<a href="https://open.spotify.com/album/3ljsgnB9LYYXmVmXIk5sby?si=UB5ob23eTymq-YHlGn-cbw" target="_blank">
+				<h2>Vengo del placard de otro</h2>
+				<img src="img/placard.png" class="disco" />
+			</a>
+		</div>
+		<div class="columna">
+			<a href="https://open.spotify.com/album/023OHmveapLQkD1mcztdwz?si=Kms8WW3ESYqA83hfgbVzgg" target="_blank">
+				<h2>Amapola del 66</h2>
+				<img src="img/amapola.png" class="disco" />	
+			</a>
+		</div>
+		<div class="columna">
+			<a href="https://open.spotify.com/album/1ChFxPfprul2WVIhT9pHvj?si=7dpRJRXuSuq1RzSY0EmV5g" target="_blank">
+				<h2>Haciendo cosas raras</h2>
+				<img src="img/raras.jpg" class="disco" />
+			</a>	
+		</div>
+	</section>
+
+<!-- FIN DISCOGRAFIA -->
+
+<!-- INICIO PROXIMOS SHOWS -->
+
+	<section class="fechas" id="proximos">
+		<h1>Fechas</h1>
+		<ul>
+			<li>Lunes 11/3 Mendoza</li> 
+			<li>Jueves 21/3 Cordoba</li>
+			<li>Sabado 23/3 Cordoba</li>
+			<li>Sabado 13/4 La Plata</li>
+			<li>Jueves 25/4 Puerto Madryn</li>
+			<li>Sabado 27/4 Comodoro Rivadavia</li>
+		</ul>
+
+	</section>
+
+<!-- FIN PROXIMOS SHOWS -->
+
+<!-- INICIO TIENDA -->
+
+<h2 class="tienda" id="tienda">¡Salir a comprar!</h2>
+
+	<section class="destacados">
+			<div class="container">
+				<img src="img/remera1.jpg">
+				<p class="producto">Remera Caricatura</p>
+				<p class="precio">$400</p>
+			</div>
+
+			<div class="container">
+				<img src="img/remera2.jpg">
+				<p class="producto">Remera Divididos 30</p>
+				<p class="precio">$400</p>
+			</div>		
+			<div class="container">
+				<img src="img/remera3.png">
+				<p class="producto">Remera Divididos 30 años Vertical</p>
+				<p class="precio">$400</p>
+			</div>
+			<div class="container">
+				<img src="img/remera4.jpg">
+				<p class="producto">Remera Divididos 30 años Horizontal</p>
+				<p class="precio">$400</p>
+			</div>
+			<div class="container">
+				<img src="img/gorra.jpg">
+				<p class="producto">Gorra Divididos 1966 (azul)</p>
+				<p class="precio">$250</p>
+			</div>
+			<div class="container">
+				<img src="img/gorra2.jpg">
+				<p class="producto">Gorra Divididos 1966 (roja)</p>
+				<p class="precio">$250</p>
+			</div>
+			<div class="container">
+				<img src="img/disco..jpg">
+				<p class="producto">"Haciendo cosas raras" CD</p>
+				<p class="precio">$405</p>
+			</div>
+			<div class="container">
+				<img src="img/disco2.jpg">
+				<p class="producto">"Amapola del 66"</p>
+				<p class="precio">$405</p>
+			</div>
+	</section>
+
+
+<!-- FIN TIENDA -->
+
 </body>
-<!-- Fin menu -->
+
+<!-- INCIO FOOTER -->
+
+<footer>
+
+	<div class="container_1">
+		<iframe class="lista" src="https://open.spotify.com/embed/user/florpilarm/playlist/6f6Iz5kp8VSzA7HSGauzuh" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+		<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CHNbDXZkiBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>	
+
+	<div >
+		
+	</div>
+  	<nav class="redes">
+    	<ul class="contacto">
+	      <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+	      <li><a href=""><i class="fab fa-twitter"></i></a></li>
+	      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+	      <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+    	</ul>
+  	</nav>
+
+  	<nav>
+  		<ul>
+  			<li class="up"><a href=""><i class="fas fa-chevron-circle-up"></i></a></li>
+  		</ul>
+  	</nav>
+
+</footer>
 
 
+
+<!-- FIN FOOTER -->
 
 
 </html>
